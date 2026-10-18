@@ -1,0 +1,62 @@
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.backup*
+*.bak
+
+# Logs and packet captures
+*.log
+*.pcap
+*.pcapng
+
+# Local reports and exports (review before publishing)
+reports/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# All project backup variants
+*-backup*
+*.backup*
+*.before-*
+*.broken-backup
+*.phase*-backup
+
+# Database files and exports
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local reports and test artifacts
+reports/
+.pytest_cache/
